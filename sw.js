@@ -1,12 +1,11 @@
-const CACHE = 'kharcha-v1';
+const CACHE = 'kharcha-v2';
 const ASSETS = [
-  '/',
-  '/index.html',
-  '/xlsx.min.js',
-  '/manifest.json',
-  
-  '/icons/icon-192.png',
-  '/icons/icon-512.png'
+  './',
+  './index.html',
+  './xlsx.min.js',
+  './manifest.json',
+  './icons/icon-192.png',
+  './icons/icon-512.png'
 ];
 
 self.addEventListener('install', e => {
